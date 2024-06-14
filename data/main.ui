@@ -1,0 +1,73 @@
+<ui version="4.0">
+ <class>CoffeeApp</class>
+ <widget class="QMainWindow" name="CoffeeApp">
+  <property name="windowTitle">
+   <string>Кофе</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="id_label">
+      <property name="text">
+       <string>ID: </string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QSpinBox" name="id_spinbox">
+      <property name="minimum">
+       <number>0</number>
+      </property>
+      <property name="maximum">
+       <number>999</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="name_label">
+      <property name="text">
+       <string>Название сорта: </string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="roast_label">
+      <property name="text">
+       <string>Степень обжарки: </string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="grind_label">
+      <property name="text">
+       <string>Молотый/в зернах: </string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="taste_label">
+      <property name="text">
+       <string>Описание вкуса: </string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="price_label">
+      <property name="text">
+       <string>Цена: </string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="volume_label">
+      <property name="text">
+       <string>Объем упаковки: </string>
+      </property>
+     </widget>
+    </item>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
