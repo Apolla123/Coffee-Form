@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AddEditCoffeeForm</class>
+ <widget class="QDialog" name="AddEditCoffeeForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QSpinBox" name="id_spinbox">
+      <property name="minimum">
+       <number>0</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="name_lineedit">
+      <property name="placeholderText">
+       <string>Название сорта</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="roast_lineedit">
+      <property name="placeholderText">
+       <string>Степень обжарки</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="grind_combobox">
+      <item>
+       <property name="text">
+        <string>Молотый</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>В зернах</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTextEdit" name="taste_textedit">
+      <property name="placeholderText">
+       <string>Описание вкуса</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QDoubleSpinBox" name="price_spinbox">
+      <property name="minimum">
+       <double>0</double>
+      </property>
+      <property name="maximum">
+       <double>9999999</double>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QSpinBox" name="volume_spinbox">
+      <property name="minimum">
+       <number>0</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="save_button">
+      <property name="text">
+       <string>Сохранить</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="cancel_button">
+      <property name="text">
+       <string>Отмена</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
