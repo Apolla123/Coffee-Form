@@ -201,6 +201,7 @@ class CoffeeApp(QMainWindow):
         return coffee_info
 
 
+# запуск программы
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     window = CoffeeApp()
