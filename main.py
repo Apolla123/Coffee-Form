@@ -184,6 +184,7 @@ class CoffeeApp(QMainWindow):
         rows = cursor.fetchall()
 
         coffee_info = []
+        # параметры
         for row in rows:
             coffee_info.append({
                 'ID': row[0],
